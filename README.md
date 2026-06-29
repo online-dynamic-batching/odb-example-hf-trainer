@@ -156,6 +156,9 @@ This example supports two ODB integration styles:
 | One-call hook | `./run.sh odb-enable` | Recommended `enable_odb(...)` entrypoint for ODB-ready HF Trainer pipelines. |
 | Manual bridge | `./run.sh odb-manual` | Lower-level `odb.apply(...)` plus `configure_trainer(...)`, useful when you want explicit control over the DataLoader handle. |
 
+For the package API contract behind these two paths, see the
+[Hugging Face Trainer integration guide](https://github.com/online-dynamic-batching/online-dynamic-batching/blob/main/docs/integration-guides/hf-trainer.md).
+
 HF Trainer can train multimodal models once each batch contains the tensors
 expected by `model.forward`. ODB adds one extra contract: model-specific
 tokenization, image processing, and visual-token expansion must happen before
