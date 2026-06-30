@@ -1,5 +1,5 @@
 online-dynamic-batching[hf]>=0.1.2
-odb-mm-mix-example @ git+https://github.com/online-dynamic-batching/odb-mm-mix-example.git
+build-mm-mix-dataset @ git+https://github.com/online-dynamic-batching/build-mm-mix-dataset.git
 torch>=2.1
 transformers>=4.49
 accelerate>=0.30

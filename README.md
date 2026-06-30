@@ -75,7 +75,7 @@ ODB_MM_MIX_SAVE_FINAL_MODEL=1 ./run.sh odb-enable
 The default paths are:
 
 - Public data: `data/mm-mix-tmdb`
-- Shared data recipe checkout: `.deps/odb-mm-mix-example`
+- Dataset builder checkout: `.deps/build-mm-mix-dataset`
 - Checkpoints and eval outputs: `outputs/hf-trainer-real`
 
 ## Run Standard
@@ -171,7 +171,7 @@ The default image cap is chosen for stable out-of-the-box execution. Tune
 
 ## Related Examples
 
-- Shared public data recipe: [odb-mm-mix-example](https://github.com/online-dynamic-batching/odb-mm-mix-example)
+- Shared dataset builder: [build-mm-mix-dataset](https://github.com/online-dynamic-batching/build-mm-mix-dataset)
 - LLaMA-Factory example: [odb-example-llamafactory](https://github.com/online-dynamic-batching/odb-example-llamafactory)
 - Accelerate example: [odb-example-accelerate](https://github.com/online-dynamic-batching/odb-example-accelerate)
 - Lightning example: [odb-example-lightning](https://github.com/online-dynamic-batching/odb-example-lightning)
